@@ -1,16 +1,47 @@
----
+---                                                                                                                         
 layout: archive
 title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
 ---
-
+ 
 {% if site.talkmap_link == true %}
-
+ 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+ 
 {% endif %}
+ 
+<ol reversed>
+  {% assign talks = site.talks | where:'type', 'Invited talk' %}
+  {% for post in talks reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ol>
+ 
+<ol reversed>
+  {% assign talks = site.talks | where:'type', 'Contributed talk' %}
+  {% for post in talks reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ol>
+ 
+<ol reversed>
+  {% assign talks = site.talks | where:'type', 'Seminar' %}
+  {% for post in talks reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ol>
+ 
+<ol reversed>
+  {% assign talks = site.talks | where:'type', 'Poster' %}
+  {% for post in talks reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ol>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<ol reversed>
+  {% assign talks = site.talks | where:'type', 'Popularization of science' %}
+  {% for post in talks reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ol>

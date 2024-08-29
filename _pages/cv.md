@@ -61,17 +61,6 @@ Publications
 Oral presentations
 ======
 
-## Invited talks
-
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
-## Contributed talks
-
-## Seminars
-
-## Posters
 <ul>
     {% assign talks = site.talks | where:'type', 'Invited talk' %}
     {% for post in talks reversed %}
@@ -100,6 +89,12 @@ Oral presentations
     {% endfor %}
 </ul>
 
+<ul>
+    {% assign talks = site.talks | where:'type', 'Popularization of science' %}
+    {% for post in talks reversed %}
+      {% include my-archive-single-talk.html %}
+    {% endfor %}
+</ul>
 <!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
