@@ -41,15 +41,16 @@ Research experience
   
 Teaching experience
 ======
- <!-- Remettre le teaching comme il faut -->
+<!-- Remettre comme il faut -->
+* **Sept.2024-Jul.2025**: Teaching assistant
+  * [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/), Grenoble, France
+  * Mechanics, tutorials and laboratory courses for 100 hours (undergraduate students).
+  * Lab work on Signal processing, 18 hours (graduate students)
 * **Sept.2018-Jul.2021**: Teaching assistant
   * [Université Paris-Saclay](https://www.universite-paris-saclay.fr/), Orsay, France
   * Geometrical optics, lectures, tutorials and laboratory courses for 153 hours (undergraduate students).
   * Lab work in Mechanics, 30 hours (undergraduate students).
-* **Sept.2024-Jul.2025**: Teaching assistant
-  * [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/), Grenoble, France
-  * Mechanics, tutorials and laboratory courses for 100 hours (undergraduate students).
-  * Lab work in Signal processing, 18 hours (graduate students)
+
 
 Publications
 ======
@@ -71,7 +72,33 @@ Oral presentations
 ## Seminars
 
 ## Posters
-
+<ul>
+    {% assign talks = site.talks | where:'type', 'Invited talk' %}
+    {% for post in talks reversed %}
+      {% include my-archive-single-talk.html %}
+    {% endfor %}
+</ul>
+ 
+<ul>
+    {% assign talks = site.talks | where:'type', 'Contributed talk' %}
+    {% for post in talks reversed %}
+      {% include my-archive-single-talk.html %}
+    {% endfor %}
+</ul>
+ 
+<ul>
+    {% assign talks = site.talks | where:'type', 'Seminar' %}
+    {% for post in talks reversed %}
+      {% include my-archive-single-talk.html %}
+    {% endfor %}
+</ul>
+ 
+<ul>
+    {% assign talks = site.talks | where:'type', 'Poster' %}
+    {% for post in talks reversed %}
+      {% include my-archive-single-talk.html %}
+    {% endfor %}
+</ul>
 
 <!-- Teaching
 ======

@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Bruno Ventéjou"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoc researcher at LIPhy, UGA"
+  bio              : "Postdoc researcher at LIPhy"
   location         : "Grenoble, France"
-  employer         : #"Université Grenoble-Alpes"
+  employer         : "Université Grenoble Alpes"
   uri              : # URL
   email            : "bruno.ventejou@univ-grenoble-alpes." 
 
