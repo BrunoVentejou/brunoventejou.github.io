@@ -3,14 +3,15 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+toc: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-Education
-======
+# Education
+
  
 * **Sept.2018-Dec.2021** Ph.D. in Physics supervised by Hugues Chaté, [SPEC](https://iramis.cea.fr/spec/), CEA Saclay, Gif-sur-Yvette, France.
 * &emsp;&emsp;**2017**&emsp;&emsp; [Master in Physics of Complex Systems](https://physics-complex-systems.fr/), [ENS Paris-Saclay](https://ens-paris-saclay.fr/).
@@ -20,8 +21,8 @@ Education
 
 
   
-Research experience
-======
+# Research experience
+
 
 * **May.2022-Aug.2025**: Postdoc
   * [LIPhy](https://liphy.univ-grenoble-alpes.fr/en), UGA, Grenoble, France
@@ -39,8 +40,8 @@ Research experience
   * [Alfvén Lab.](http://www.alfvenlab.kth.se/), KTH, Stockholm, Sweden
   * Supervisor: [Jon Tomas Gudmundsson](http://langmuir.raunvis.hi.is/~tumi/eindex.html)
   
-Teaching experience
-======
+# Teaching experience
+
 <!-- Remettre comme il faut -->
 * **Sept.2024-Jul.2025**: Teaching assistant
   * [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/), Grenoble, France
@@ -52,14 +53,14 @@ Teaching experience
   * Lab work in Mechanics, 30 hours (undergraduate students).
 
 
-Publications
-======
+# Publications
+
 <ol reversed>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ol>
 
-Oral presentations
-======
+# Oral presentations
+
 
 <ul>
     {% assign talks = site.talks | where:'type', 'Invited talk' %}
