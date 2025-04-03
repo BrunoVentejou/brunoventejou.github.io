@@ -13,7 +13,7 @@ volume: '109'
 page: '064403'
 paperurl: 'https://doi.org/10.1103/PhysRevE.109.064403'
 arxivid: '2402.03123'
-pubnumber: 3
+pubnumber: 4
 citation: 'Ventéjou, B., Magniez--Papillon, I., Bertin, E., Peyla, P., & Dupont, A. (2024).  &quot;Behavioral transition of a fish school in a crowded environment &quot;. <i>Physical Review E, 109</i>(6), 064403. '
 ---
 
