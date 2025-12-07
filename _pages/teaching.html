@@ -5,8 +5,9 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<!-- {% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
+<ul reversed>
+  {% assign teaching = site.teaching | where:'type', 'Past' %}
+  {% for post in teaching reversed %}
+    {% include my-archive-single-talk.html %}
+  {% endfor %}
+</ul>
