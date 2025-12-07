@@ -23,8 +23,10 @@ redirect_from:
   
 # Research experience
 
-
-* **May.2022-Aug.2025**: Postdoc
+* **Jan.2025-July.2026**: Postdoc
+  * [LIPhy](https://liphy.univ-grenoble-alpes.fr/en), UGA, Grenoble, France
+  * Advisor: [Misaki Osawa](https://misakiozawa.com/)
+* **May.2022-Dec.2025**: Postdoc
   * [LIPhy](https://liphy.univ-grenoble-alpes.fr/en), UGA, Grenoble, France
   * Advisor: [Philippe Peyla](http://liphy-annuaire.univ-grenoble-alpes.fr/pages_personnelles/philippe_peyla/)
 * **Sept.2018-Dec.2021**: Ph.D.
@@ -45,12 +47,10 @@ redirect_from:
 <!-- Remettre comme il faut -->
 * **Sept.2024-Jul.2025**: Teaching assistant
   * [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr/), Grenoble, France
-  * Mechanics, tutorials and laboratory courses for 100 hours (undergraduate students).
-  * Lab work on Signal processing, 18 hours (graduate students)
+  * Solid Mechanics, Signal processing, Thermodynamics, Aero-Elasticity, Energy and climate challenge
 * **Sept.2018-Jul.2021**: Teaching assistant
   * [Université Paris-Saclay](https://www.universite-paris-saclay.fr/), Orsay, France
-  * Geometrical optics, lectures, tutorials and laboratory courses for 153 hours (undergraduate students).
-  * Lab work in Mechanics, 30 hours (undergraduate students).
+  * Geometrical optics, Mechanics
 
 
 # Publications
